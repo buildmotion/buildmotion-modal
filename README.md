@@ -1,7 +1,7 @@
 # Modal Proof
 The goal of this proof is to implement the Angular Bootstrap modal component. View and edit in ` Stackblitz`
 
-<iframe src="https://stackblitz.com/github/buildmotion/buildmotion-modal/tree/master/source/modal-proof" id="buildmotion-modal" height="666" style="width: 100%"></iframe>
+[View and Edit with STACKBLITZ](https://stackblitz.com/github/buildmotion/buildmotion-modal/tree/master/source/modal-proof)
 
 
 ## Let Create a new App!
