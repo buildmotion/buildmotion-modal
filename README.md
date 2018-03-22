@@ -1,9 +1,11 @@
 # Modal Proof
-The goal of this proof is to implement the Angular Bootstrap modal component. Create a new app. Or you can view and edit in ` Stackblitz`
+The goal of this proof is to implement the Angular Bootstrap modal component. View and edit in ` Stackblitz`
 
-<a class="stackblitz" target="_blank" title="Edit in StackBlitz" href="app/components/modal/demos/customclass/stackblitz.html">
-    <img alt="StackBlitz icon" height="22" src="img/stackblitz-icon.svg">
-</a>
+<iframe src="https://stackblitz.com/github/buildmotion/buildmotion-modal/tree/master/source/modal-proof" id="buildmotion-modal" height="666" style="width: 100%"></iframe>
+
+
+## Let Create a new App!
+Or, you can create the application using:
 
 ```
 ng new modal-proof
