@@ -1,11 +1,14 @@
 # Modal Proof
-The goal of this proof is to implement the Angular Bootstrap modal component. View and edit in ` Stackblitz`
+The goal of this proof is to implement the Bootstrap modal component. Current project requires a modal to display some application information. 
 
-[View and Edit with STACKBLITZ](https://stackblitz.com/github/buildmotion/buildmotion-modal/tree/master/source/modal-proof)
+View and edit in ` Stackblitz`
 
+<a class="stackblitz" target="_blank" title="View/Edit in StackBlitz" href="https://stackblitz.com/github/buildmotion/buildmotion-modal/tree/master/source/modal-proof">
+    <img alt="StackBlitz icon" src="blitz-logo.png">
+</a>
 
 ## Let Create a new App!
-Or, you can create the application using:
+Or, you can create the application using the Angular CLI.
 
 ```
 ng new modal-proof
@@ -22,7 +25,6 @@ The web application will require the ` @ng-bootstrap-bootstrap ` package and any
 
 ```
 npm install --save @ng-bootstrap/ng-bootstrap@1.0.2
-npm install --save ajv@^6.0.0
 ```
 
 ## Modal Component
@@ -32,12 +34,12 @@ Create a new component ` ModalComponent ` as a generic modal component. We will 
 ng generate component modal
 ```
 
+Next, update the component with the following.
+
 1. update the import to include `@Input`
     * add the `@Input() title` with a default title value.
 2. inject the ` public activeModal: NgbActiveModal ` in the constructor.
     * allows the modal to hide
-
-Next, update the component with the following.
 
 ```typescript
 import { Component, Input, OnInit } from '@angular/core';
@@ -216,9 +218,7 @@ export class AppModule { }
 ## Stackblitz
 
 ```html
-<a class="stackblitz" target="_blank" title="Edit in StackBlitz" href="app/components/modal/demos/customclass/stackblitz.html">
-    <img alt="StackBlitz icon" height="22" src="img/stackblitz-icon.svg">
-</a>
+
 ```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
